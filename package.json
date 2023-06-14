@@ -37,5 +37,11 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
-  }
+  },
+
+  "homepage": "https://allaff.github.io/portfolio/",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
 }
